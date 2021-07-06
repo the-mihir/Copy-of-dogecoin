@@ -564,7 +564,7 @@ img {
 
 
 .crypto_address {
-  color: #fff;
+  color: gray;
   padding: 10px 15px;
   border: 2px solid #fff;
   border-radius: 18px;
@@ -579,6 +579,7 @@ img {
 }
 
 .px-3 {
+  margin-top: 20px;
   font-size: 1.125rem;
   font-weight: 700;
   padding: 11px 43px;
