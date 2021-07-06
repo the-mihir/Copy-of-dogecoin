@@ -245,7 +245,7 @@ form .row:first-child .floating-label-form-group {
 .footer { 
   padding-top: 5rem;  
   padding-bottom: 5rem; 
-  background-color: #70A0BD;  
+  background-color: #305e16;  
   color: #fff;  
 } 
 .copyright {  
@@ -387,7 +387,7 @@ button.bg-primary:focus {
   background-color: #f2ede0 !important;
 }
 .bg-secondary {
-  background-color: #70A0BD !important;
+  background-color: #305e16 !important;
 }
 .border-primary {
   border-color: #f2ede0 !important;
@@ -440,7 +440,7 @@ button.bg-primary:focus {
   color: #f2ede0;
 }
 .footer {
-  background-color: #70A0BD;
+  background-color: #305e16;
 }
 .video-container {
     position: relative;
