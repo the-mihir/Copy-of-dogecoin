@@ -56,7 +56,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#wallets"><span data-i18n="dgc-wallets">FEATURES</span></a></li>
+                            href="#wallets"><span data-i18="dgc-wallets">FEATURES</span></a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                             href="#about"><span data-i18n="dgc-what-is-doge">What is dogecoin</span></a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
@@ -89,7 +89,8 @@
                     <div class="btn-holder mt-4">
                         <a href="#"></a><button type="button" class="btn btn-secondary btn-lg mr-2">Buy
                             $DOGEC</button></a>
-                        <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg mr-2">LIVE CHART</button></a>
+                        <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg mr-2">LIVE
+                                CHART</button></a>
                         <!-- <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">CONTACT</button></a> -->
 
                         <div
@@ -398,24 +399,71 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/vendor/js/particles.min.js"></script>
     <!-- Internationalization -->
-    <script src="assets/vendor/js/jquery.i18n/jquery.i18n.js"></script>
+    <!-- <script src="assets/vendor/js/jquery.i18n/jquery.i18n.js"></script>
     <script src="assets/vendor/js/jquery.i18n/jquery.i18n.messagestore.js"></script>
     <script src="assets/vendor/js/jquery.i18n/jquery.i18n.fallbacks.js"></script>
     <script src="assets/vendor/js/jquery.i18n/jquery.i18n.language.js"></script>
     <script src="assets/vendor/js/jquery.i18n/jquery.i18n.parser.js"></script>
-    <script src="assets/vendor/js/jquery.i18n/jquery.i18n.emitter.js"></script>
+    <script src="assets/vendor/js/jquery.i18n/jquery.i18n.emitter.js"></script> -->
     <!-- Core theme JS-->
     <script src="assets/js/scripts.js"></script>
     <script>
         function CryptoAddressfunction() {
-            var text = document.getElementById("CryptoAddress");
-            console.log(text);
-            if (text) {
-                text.select();
-                text.setSelectionRange(0, 99999);
-                document.execCommand("copy")
-                alert("Copied the text: " + copyText.value);
+            var field = document.getElementById("CryptoAddress");
+            var result = copyToClipboard(field)
+            if (result) {
+                alert (field.value + " Address Successfully Coped");
             }
+        }
+
+        function copyToClipboard(elem) {
+            // create hidden text element, if it doesn't already exist
+            var targetId = "_hiddenCopyText_";
+            var isInput = elem.tagName === "INPUT" || elem.tagName === "TEXTAREA";
+            var origSelectionStart, origSelectionEnd;
+            if (isInput) {
+                // can just use the original source element for the selection and copy
+                target = elem;
+                origSelectionStart = elem.selectionStart;
+                origSelectionEnd = elem.selectionEnd;
+            } else {
+                // must use a temporary form element for the selection and copy
+                target = document.getElementById(targetId);
+                if (!target) {
+                    var target = document.createElement("textarea");
+                    target.style.position = "absolute";
+                    target.style.left = "-9999px";
+                    target.style.top = "0";
+                    target.id = targetId;
+                    document.body.appendChild(target);
+                }
+                target.textContent = elem.textContent;
+            }
+            // select the content
+            var currentFocus = document.activeElement;
+            target.focus();
+            target.setSelectionRange(0, target.value.length);
+
+            // copy the selection
+            var succeed;
+            try {
+                succeed = document.execCommand("copy");
+            } catch (e) {
+                succeed = false;
+            }
+            // restore original focus
+            if (currentFocus && typeof currentFocus.focus === "function") {
+                currentFocus.focus();
+            }
+
+            if (isInput) {
+                // restore prior selection
+                elem.setSelectionRange(origSelectionStart, origSelectionEnd);
+            } else {
+                // clear temporary content
+                target.textContent = "";
+            }
+            return succeed;
         }
     </script>
 </body>
