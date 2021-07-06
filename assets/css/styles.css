@@ -321,15 +321,15 @@ a.footerlink{
   border-color: #f2ede0;
 }
 .btn-outline-secondary, .btn-outline-secondary:hover {
-  color: #1e4151;
-  border-color: #1e4151;
+  color: #305e16;
+  border-color: #305e16;
 }
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-  color: #1e4151;
+  color: #305e16;
 }
 .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active, .show > .btn-outline-secondary.dropdown-toggle {
-  background-color: #1e4151;
-  border-color: #1e4151;
+  background-color: #305e16;
+  border-color: #305e16;
 }
 .btn-link {
   color: #f2ede0;
@@ -369,7 +369,7 @@ a.footerlink{
   background-color: #f2ede0;
 }
 .badge-secondary {
-  background-color: #1e4151;
+  background-color: #305e16;
 }
 .progress-bar {
   background-color: #f2ede0;
@@ -393,7 +393,7 @@ button.bg-primary:focus {
   border-color: #f2ede0 !important;
 }
 .border-secondary {
-  border-color: #1e4151 !important;
+  border-color: #305e16 !important;
 }
 .pt-3,
 .py-3 {
@@ -477,7 +477,7 @@ button.bg-primary:focus {
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, 
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, 
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #1e4151;
+    color: #305e16;
     background: #f2ede0;
   }
   #mainNav.navbar-shrink {
@@ -541,7 +541,7 @@ img {
 .support-content {
   min-height: 300px;
   max-width: 500px;
-  border: 1px solid #4a6c7d;
+  border: 1px solid #305e16;
   margin: 0px auto;
   padding: 20px;
   border-radius: .5rem;
