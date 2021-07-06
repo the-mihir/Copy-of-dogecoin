@@ -563,3 +563,37 @@ img {
 }
 
 
+.crypto_address {
+  color: #fff;
+  padding: 10px 15px;
+  border: 2px solid #fff;
+  border-radius: 18px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color: transparent;
+  width: 100%;
+  font-weight: 600;
+  display: flex;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.px-3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 11px 43px;
+  border-radius: 18px;
+  display: inline-block;
+  letter-spacing: .02em;
+  transition: all .3s;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: royalblue;
+  padding-right: 1rem!important;
+  padding-left: 1rem!important
+    
+}
+
+.px-5{
+  text-decoration: none !important;
+}
