@@ -574,7 +574,7 @@ img {
   width: 100%;
   font-weight: 600;
   display: flex;
-  margin: 10px 0px;
+  margin: 15px 0px;
   text-align: center;
 }
 
@@ -588,7 +588,7 @@ img {
   transition: all .3s;
   border: 1px solid #fff;
   color: #fff;
-  background-color: royalblue;
+  background-color: #305e16;
   padding-right: 1rem!important;
   padding-left: 1rem!important
     
