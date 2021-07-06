@@ -586,7 +586,7 @@ img {
   display: inline-block;
   letter-spacing: .02em;
   transition: all .3s;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   color: #fff;
   background-color: royalblue;
   padding-right: 1rem!important;
