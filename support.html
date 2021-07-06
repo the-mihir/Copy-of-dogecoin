@@ -150,14 +150,15 @@
             </div>
             <!-- Footer About Text-->
             <div class="col-lg-4">
-                <p class="lead" data-i18n="dgc-language">Language</p>
+                <div class="cus" id="google_translate_element_id"></div>
+                <!-- <p class="lead" data-i18n="dgc-language">Language</p>
                 <a class="text-white select-lang" style="cursor: pointer;" data-lang="en">English</a><br>
                 <a class="text-white select-lang" style="cursor: pointer;" data-lang="de">Deutsch</a><br>
                 <a class="text-white select-lang" style="cursor: pointer;" data-lang="fr">Français</a><br>
                 <a class="text-white select-lang" style="cursor: pointer;" data-lang="es">Español</a><br>
                 <a class="text-white select-lang" style="cursor: pointer;" data-lang="kn">Kannada</a><br>
                 <a class="text-white select-lang" style="cursor: pointer;" data-lang="ru">Русский</a><br>
-                <a class="text-white select-lang" style="cursor: pointer;" data-lang="ch">中国人</a><br>
+                <a class="text-white select-lang" style="cursor: pointer;" data-lang="ch">中国人</a><br> -->
             </div>
         </div>
     </div>
@@ -183,10 +184,19 @@
     <!-- Internationalization -->
     <script src="assets/vendor/js/jquery.i18n/jquery.i18n.js"></script>
     <script src="assets/vendor/js/jquery.i18n/jquery.i18n.messagestore.js"></script>
-    <script src="assets/vendor/js/jquery.i18n/jquery.i18n.fallbacks.js"></script>
+    <!-- <script src="assets/vendor/js/jquery.i18n/jquery.i18n.fallbacks.js"></script>
     <script src="assets/vendor/js/jquery.i18n/jquery.i18n.language.js"></script>
     <script src="assets/vendor/js/jquery.i18n/jquery.i18n.parser.js"></script>
-    <script src="assets/vendor/js/jquery.i18n/jquery.i18n.emitter.js"></script>
+    <script src="assets/vendor/js/jquery.i18n/jquery.i18n.emitter.js"></script> -->
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script>
+            function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element_id');
+            }
+    </script>
+    
     <!-- Core theme JS-->
     <script src="assets/js/scripts.js"></script>
 </body>
