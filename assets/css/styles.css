@@ -29,9 +29,9 @@ h1, h2, h3, h4, h5, h6,
   width: 100%;  
   max-width: 7rem;  
   height: 0.25rem;  
-  background-color: #2c3e50;  
+  background-color: #305e16;  
   border-radius: 1rem;  
-  border-color: #2c3e50 !important; 
+  border-color: #305e16 !important; 
 } 
 .divider-custom .divider-custom-line:first-child {  
   margin-right: 1rem; 
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6,
   margin-left: 1rem;  
 } 
 .divider-custom .divider-custom-icon {  
-  color: #2c3e50 !important;  
+  color: #305e16 !important;  
   font-size: 2rem;  
 } 
 .divider-custom.divider-light .divider-custom-line {  
@@ -407,18 +407,18 @@ button.bg-primary:focus {
   color: #f2ede0 !important;
 }
 .text-secondary {
-  color: #1e4151 !important;
+  color: #305e16 !important;
 }
 .page-section .page-section-heading {
   font-size: 1.25rem;
   line-height: 1rem;
 }
 .divider-custom .divider-custom-line {
-  background-color: #1e4151;
-  border-color: #1e4151 !important;
+  background-color: #305e16;
+  border-color: #305e16 !important;
 }
 .divider-custom .divider-custom-icon {
-  color: #1e4151 !important;
+  color: #305e16 !important;
 }
 #mainNav {
   padding-top: .5rem;
@@ -566,7 +566,7 @@ img {
 .crypto_address {
   color: gray;
   padding: 10px 15px;
-  border: 2px solid #fff;
+  border: 1px solid #305e16;
   border-radius: 18px;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -587,7 +587,7 @@ img {
   display: inline-block;
   letter-spacing: .02em;
   transition: all .3s;
-  border: 1px solid #fff;
+  border: 1px solid #305e16;
   color: #fff;
   background-color: #305e16;
   padding-right: 1rem!important;
@@ -597,4 +597,16 @@ img {
 
 .px-5{
   text-decoration: none !important;
+}
+
+.portfolio-sec{
+  margin-top: 50px;
+}
+
+.box-in-row{
+  padding: 25px;
+  background-color: rgb(221, 221, 221);
+  text-align: center;
+  border-radius: 8px;
+  margin: 80px 10px 10px 10px;
 }

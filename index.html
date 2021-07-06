@@ -119,82 +119,110 @@
     <section class="page-section portfolio" id="wallets">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 data-i18n="dgc-choose-wallet"
+            <h2 data-i18="dgc-choose-wallet"
                 class="page-section-heading text-center text-uppercase text-secondary mb-0">DOGECOIN CLASSIC FEATURES
             </h2>
-            <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-angle-down"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
-            <p class="lead">
-                <span data-i18n="dgc-windows-wallet-modal-sync">You have to sync with the blockchain to use
-                    Dogecoin.</span>
-                <span data-i18n="dgc-windows-wallet-modal-light-wallet">MultiDoge is a "light" wallet. It syncs with the
-                    blockchain by "skimming" through the blockchain, providing fast sync times.</span>
-                <span data-i18n="dgc-windows-wallet-modal-full-wallet">Dogecoin Core, on the other hand, is a "full"
-                    wallet. It syncs by downloading it, providing a solid-working Dogecoin wallet.</span>
-            </p>
-            <!-- Portfolio Grid Items-->
-            <div class="row text-center justify-content-center">
-                <div class="col-md-6 col-lg-6 mb-5">
-                    <div class="mx-auto">
-                        <div class="img-holder">
-                            <p class="lead">Multidoge</p>
-                            <img style="max-width: 150px;" src="assets/img/multidoge.png" alt="Multi doge logo">
+            
+
+            <div class="one">
+                <div class="row text-center justify-content-center portfolio-sec">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="support-content">
+                            <i class="fa fa-bullhorn text-secondary mb-2"></i>
+                            <h3 data-i18n="dgc-support-spread-the-word" class="heading mb-4">
+                                Spread the Word
+                            </h3>
+                            <div class="text">
+                                Become a self-appointed Dogecoin ambassador. Tell your friends and family about it. Join <a class="btn btn-sm btn-secondary" href="https://www.reddit.com/r/dogecoin/" target="_blank">r/dogecoin</a>. Ask your favorite shops to let you pay with Dogecoin. You can even donate Dogecoin to someone in need. Much noble. So respect. 
+                            </div>
                         </div>
-                        <br>
-                        <a href="https://multidoge.org/?dl=win" target="_blank"
-                            class="btn btn-md btn-info wallet-button mb-2"><span class="fab fa-windows"></span> <span
-                                data-i18n="dgc-wallet-windows"> Windows</span></a>
-                        <br>
-                        <a href="https://multidoge.org/?dl=lin" target="_blank"
-                            class="btn btn-md btn-success wallet-button mb-2"><span class="fab fa-linux"></span> <span
-                                data-i18n="dgc-wallet-linux"> Linux</span></a>
-                        <br>
-                        <a href="https://multidoge.org/?dl=osx" target="_blank"
-                            class="btn btn-md btn-secondary wallet-button"><span class="fab fa-apple"></span> <span
-                                data-i18n="dgc-wallet-osx"> macOS</span></a>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-6 mb-5">
-                    <div class="mx-auto">
-                        <p class="lead">Dogecoin Core</p>
-                        <div class="img-holder">
-                            <img style="max-width: 150px;" src="assets/img/dogecoin-300.png" alt="Dogecoin core logo">
+        
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="support-content">
+                            <i class="fa fa-globe text-secondary mb-2"></i>
+                            <h3 data-i18n="dgc-support-contribute-to-website" class="heading mb-4">
+                                Contribute to dogecoin.com
+                            </h3>
+                            <div class="text">
+                                Dogecoin.com is free software. If you are a web developer and a devoted shiba, you can help maintain the official dogecoin website and add features. 
+                            </div>
+                            <a class="btn btn-sm btn-secondary mt-1" href="https://github.com/dogecoin/dogecoin.com" target="_blank">Github</a>
                         </div>
-                        <br>
-                        <a href="https://github.com/dogecoin/dogecoin/releases/download/v1.14.3/dogecoin-1.14.3-win32-setup-unsigned.exe"
-                            target="_blank" class="btn btn-md btn-info wallet-button mb-2"><span
-                                class="fab fa-windows"></span> <span> Windows 32-bit</span></a>
-                        <a href="https://github.com/dogecoin/dogecoin/releases/download/v1.14.3/dogecoin-1.14.3-win64-setup-unsigned.exe"
-                            target="_blank" class="btn btn-md btn-info wallet-button mb-2"><span
-                                class="fab fa-windows"></span> <span> Windows 64-bit</span></a>
-                        <br>
-                        <a href="https://github.com/dogecoin/dogecoin/releases/download/v1.14.3/dogecoin-1.14.3-i686-pc-linux-gnu.tar.gz"
-                            target="_blank" class="btn btn-md btn-success wallet-button mb-2"><span
-                                class="fab fa-linux"></span> <span> Linux 32-bit</span></a>
-                        <a href="https://github.com/dogecoin/dogecoin/releases/download/v1.14.3/dogecoin-1.14.3-x86_64-linux-gnu.tar.gz"
-                            target="_blank" class="btn btn-md btn-success wallet-button mb-2"><span
-                                class="fab fa-linux"></span> <span> Linux 64-bit</span></a>
-                        <br>
-                        <a href="https://github.com/dogecoin/dogecoin/releases/download/v1.14.3/dogecoin-1.14.3-osx.dmg"
-                            target="_blank" class="btn btn-md btn-secondary wallet-button"><span
-                                class="fab fa-apple"></span> <span data-i18n="dgc-wallet-osx"> macOS</span></a>
                     </div>
-                </div>
-                <div class="col-md-12 col-lg-12 mb-5">
-                    <div class="mx-auto">
-                        <p class="lead" data-i18n="dgc-android-wallet">Android Wallet</p>
-                        <a href="https://play.google.com/store/apps/details?id=de.langerhans.wallet&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"
-                            target="_blank" class="img-holder" aria-label="Get it on Google Play">
-                            <img style="max-width: 150px;" src="assets/img/google_play.png" alt="">
-                        </a>
-                    </div>
-                </div>
             </div>
-        </div>
+            <div class="two">
+                <div class="row text-center justify-content-center portfolio-sec">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="support-content">
+                            <i class="fa fa-code text-secondary mb-2"></i>
+                            <h3 data-i18n="dgc-support-develop" class="heading mb-4">
+                                Develop
+                            </h3>
+                            <div class="text">
+                                Dogecoin is free software. If you are a software developer, you can use your shibapowers to do good and improve Dogecoin. You can even build amazing new services or software that use Dogecoin.
+                            </div>
+                            <a class="btn btn-sm btn-secondary mt-1" href="https://www.reddit.com/r/dogecoindev/" target="_blank">r/dogecoindev</a>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="support-content">
+                            <i class="fa fa-server text-secondary mb-2"></i>
+                            <h3 data-i18n="dgc-support-run-full-node" class="heading mb-4">
+                                Run a Full Node
+                            </h3>
+                            <div class="text">
+                                A full node is a program that validates transactions on the Dogecoin blockchain. Since Dogecoin is fully decentralized,  meaning there is no central authority that owns or operates it, the network has to be supported and maintained entirely by individual computers running full nodes. <a class="btn btn-sm btn-secondary" href="https://www.reddit.com/r/dogecoin/comments/l7q640/why_running_a_full_node_is_the_secondbest/" target="_blank">Learn more here</a> about running a full node and how you can do your part to keep the Dogecoin network barking. 
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+    
+                <!-- <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="support-content">
+                        <i class="fa fa-globe text-secondary mb-2"></i>
+                        <h3 data-i18n="dgc-support-contribute-to-website" class="heading mb-4">
+                            Contribute to dogecoin.com
+                        </h3>
+                        <div class="text">
+                            Dogecoin.com is free software. If you are a web developer and a devoted shiba, you can help maintain the official dogecoin website and add features. 
+                        </div>
+                        <a class="btn btn-sm btn-secondary mt-1" href="https://github.com/dogecoin/dogecoin.com" target="_blank">Github</a>
+                    </div>
+                </div> -->
+    
+                <!-- <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="support-content">
+                        <i class="fa fa-book text-secondary mb-2"></i>
+                        <h3 data-i18n="dgc-support-educate" class="heading mb-4">
+                            Educate People
+                        </h3>
+                        <div class="text">
+                            Some shibas want to know more than the basics. They need teachers. If you are well-informed about Dogecoin, you can post educational videos about it online, write blog posts, share info on social media, and so much more. Anything that makes people better educated about Dogecoin is good for Dogecoin. <a class="btn btn-sm btn-secondary mt-1" href="https://www.reddit.com/r/dogeducation/" target="_blank">Start Here</a> 
+                        </div>
+                    </div>
+                </div> -->
+    
+                <!-- <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="support-content">
+                        <i class="fa fa-code text-secondary mb-2"></i>
+                        <h3 data-i18n="dgc-support-develop" class="heading mb-4">
+                            Develop
+                        </h3>
+                        <div class="text">
+                            Dogecoin is free software. If you are a software developer, you can use your shibapowers to do good and improve Dogecoin. You can even build amazing new services or software that use Dogecoin.
+                        </div>
+                        <a class="btn btn-sm btn-secondary mt-1" href="https://www.reddit.com/r/dogecoindev/" target="_blank">r/dogecoindev</a>
+                    </div>
+                </div> -->
+            </div>
     </section>
     <!-- About Section-->
     <section class="page-section bg-primary text-secondary mb-0" id="about">
@@ -292,29 +320,20 @@
 
                     <p class="lead">1. <span data-i18n="dgc-choose-wallet">Pick a Wallet</span></p>
                     <p><span data-i18n="dgc-choose-wallet-1">Pick a Wallet from our <a
-                                class="btn btn-sm btn-outline-secondary js-scroll-trigger" href="#wallets">Wallet
-                                Section</a></span><br>
+                                class="btn btn-sm btn-outline-secondary js-scroll-trigger" href="https://trustwallet.com">TrustWallet </a></span><br>
                         <span data-i18n="dgc-choose-wallet-2">A Wallet is used for holding your Dogecoins directly on
                             your Computer/Smartphone.</span></p>
                     <p class="lead">2. <span data-i18n="dgc-configure-wallet">Configure your Wallet</span></p>
-                    <p data-i18n="dgc-configure-wallet-1">After downloading, you can configure your Wallet according to
-                        our <a class="btn btn-sm btn-outline-secondary" href="guide.html">Guide</a></p>
-                    <p class="lead">3. <span data-i18n="dgc-get-some">Get some Dogecoins</span></p>
-                    <p><span data-i18n="dgc-exchanges-modal-many-ways">There are numerous amounts of ways to get
-                            Dogecoin. You can buy them, trade for them, get tipped, "mine" them, and more. They are
-                            surprisingly endless!</span>
+                    <p data-i18n="dgc-configure-wallet-1">After downloading, setup your wallet</p>
+                    <p class="lead">3. <span data-i18="dgc-get-some">Get some $BNB</span></p>
+                    <p><span data-i18="dgc-exchanges-modal-many-ways"> There are numerous ways to get Binance Coin. Check out our <a class="btn btn-sm btn-outline-secondary" href="guide.html">Guide</a> for a few ways!
+                    </span>
                         <br><br>
-                        <span data-i18n="dgc-exchanges-modal-tipped">You can get tipped Dogecoin by participating in <a
-                                class="btn btn-sm btn-outline-secondary js-scroll-trigger" href="#about">our
-                                community</a>
-                            <br>
-                            If that's not your style, another way to have your first Dogecoin is to participate at <a
-                                href="https://www.dogecoinfah.com/">Dogecoin Folding@Home</a>.</span>
-                        <br><br>
-                        <span data-i18n="dgc-exchanges-modal-fah-faq">Folding@Home (FaH) is a distributed computing
-                            project. You can join team dogefolders, bring in your computing power and receive some
-                            Dogecoins for your efforts. Please note any reward is paid by the Dogecoin Folding@Home
-                            team. The Folding@Home project is not affiliated with Dogecoin.</span>
+                        <span data-i18="dgc-exchanges-modal-tipped">4. Visit PancakeSwap & Swap $BNB for $DOGEC
+                        <br></span>
+                        <br>
+                        <span data-i18="dgc-exchanges-modal-fah-faq"> Visit our <a class="btn btn-sm btn-outline-secondary" href="#">Buy</a> button the website, connect your wallet & instantly swap your $BNB for $DOGEC
+                        </span>
                         <!-- Sorry, we are on AuxPoW now...
                         <br><br>
                         <span data-i18n="dgc-exchanges-modal-mining">You can also get Dogecoin by "mining" it. Mining is when you use your computer to process Dogecoin transactions by other people, and in return you get Dogecoin.</span>
