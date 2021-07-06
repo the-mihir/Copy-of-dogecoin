@@ -630,10 +630,11 @@ select.goog-te-combo {
   color: #fff;
   display: inherit;
   margin-top: 15px;
-  padding: .5rem 1rem !important; 
+  padding: .7rem 1rem !important; 
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: .3rem;
+  cursor: pointer;
   
 }
 
